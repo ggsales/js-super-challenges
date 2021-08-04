@@ -1,0 +1,54 @@
+*{
+    font-family: sans-serif;
+}
+
+.body{
+    background-color:#DBDBDB;
+}
+
+#app{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square-blue{
+    width: 550px;
+    height: 467px;
+    background-color: #A9D4EC;
+    padding-left: 15px;
+}
+.square-blue h1, h2{
+    font-size: 40px;
+}
+
+
+#saida{
+    margin-top: 10%;
+}
+.square-blue i{
+    font-size: 30px;
+}
+
+.dia{
+    height: 40px;
+    width: 15%;
+    border-radius: 5px;
+    border: 0px solid;
+}
+
+.mes{
+    height: 40px;
+    width: 15%;
+    border-radius: 5px;
+    border: 0px solid;
+}
+
+.ano{
+    height: 40px;
+    width: 23%;
+    border-radius: 5px;
+    border: 0px solid;
+}
+
