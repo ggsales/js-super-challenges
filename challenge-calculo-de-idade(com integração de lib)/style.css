@@ -1,0 +1,43 @@
+*{
+    font-family: sans-serif;
+}
+
+.body{
+    background-color:#DBDBDB;
+}
+
+#app{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square-blue{
+    width: 550px;
+    height: 467px;
+    background-color: #A9D4EC;
+    padding-left: 15px;
+}
+.square-blue h1, h2{
+    font-size: 40px;
+}
+
+.square-blue input{
+    height: 40px;
+    width: 23%;
+    border-radius: 5px;
+    border: 0px solid;
+}
+
+#saida{
+    margin-top: 10%;
+}
+
+.square-blue input::placeholder{
+   font-size: 18px;
+}
+
+.input-element{
+    font-size: 18px;
+}
