@@ -29,7 +29,6 @@ function calcIdade(){
     let digitados = new Date(anoDigitado, mesDigitado, diaDigitado)
     subYear = Math.abs(anoAtual - digitados.getTime())
     dvmilis = Math.round(subYear / 31536000000)
-    console.log (subYear)
 
 
     document.getElementById("idade").innerHTML = dvmilis + '  '+'anos';
