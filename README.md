@@ -14,7 +14,7 @@
 
 
 ## Challenge 3 = Cálculo de idade com preenchimento completo do campo + "Máscara" de input.
-### Neste último desafio, a ideia era que por trás do placeholder, houvesse uma "Máscara" atribuida no input, para que assim, garantisse que a entrada dos dados, por parte do usuário, seria de forma clara e correta. Para isso, foi necessário fazer a integração da biblioteca [Cleave.js](https://github.com/nosir/cleave.js) para a rápida formatação da data e também o uso do método [Split()](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/split) para a separação de strings, tendo em vista que este ultimo desafio possui apenas um campo de input e seria necessário trabalhar com a entrada de 3 valores no mesmo.
+### Neste último desafio, a ideia era que por trás do placeholder, houvesse uma "Máscara" atribuída no input, para que assim, garantisse que a entrada dos dados, por parte do usuário, seria de forma clara e correta. Para isso, foi necessário fazer a integração da biblioteca [Cleave.js](https://github.com/nosir/cleave.js) para a rápida formatação da data e também o uso do método [Split()](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/split) para a separação de strings, tendo em vista que este ultimo desafio possui apenas um campo de input e seria necessário trabalhar com a entrada de 3 valores no mesmo.
 ![Challenge-3](https://user-images.githubusercontent.com/67559431/128449311-c0df4bcb-96cb-4d98-ac73-caf293635601.gif)
 
 
