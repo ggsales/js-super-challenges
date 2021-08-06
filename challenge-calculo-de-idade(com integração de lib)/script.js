@@ -39,13 +39,13 @@ console.log(digitados)
 
 function showContentByIdadeUser(){
     if(dvmilis >= 18){
-        document.getElementById("saida").innerText = "Você pode acessar o conteudo infantil, adolescente e também o adulto. ";
+        document.getElementById("saida").innerText = "Você pode acessar o conteúdo infantil, adolescente e também o adulto. ";
     } 
     else if(dvmilis < 18 && dvmilis >= 12){
-        document.getElementById("saida").innerText  ="Você pode acessar apenas o conteudo infantil e adolescente."    
+        document.getElementById("saida").innerText  ="Você pode acessar apenas o conteúdo infantil e adolescente."    
     }
     else {
-        document.getElementById("saida").innerText  ="Você pode acessar apenas o conteudo infantil."       
+        document.getElementById("saida").innerText  ="Você pode acessar apenas o conteúdo infantil."       
     } 
 }
 

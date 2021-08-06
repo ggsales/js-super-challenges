@@ -30,13 +30,13 @@ function calcIdade(){
 
 function showContentByIdadeUser(){
     if(subYear >= 18){
-        document.getElementById("saida").innerText = "Você pode acessar o conteudo infantil, adolescente e também o adulto. ";
+        document.getElementById("saida").innerText = "Você pode acessar o conteúdo infantil, adolescente e também o adulto. ";
     } 
     else if(subYear < 18 && subYear >= 12){
-        document.getElementById("saida").innerText  ="Você pode acessar apenas o conteudo infantil e adolescente."    
+        document.getElementById("saida").innerText  ="Você pode acessar apenas o conteúdo infantil e adolescente."    
     }
     else {
-        document.getElementById("saida").innerText  ="Você pode acessar apenas o conteudo infantil."       
+        document.getElementById("saida").innerText  ="Você pode acessar apenas o conteúdo infantil."       
     } 
 }
 
